@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Para você ❤️</title>
+
+<style>
+body {
+    background: #fff0f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 20px #ddd;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+button {
+    background: #ff5c8a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#texto {
+    display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div id="inicio">
+    <h1>Bom dia, meu amor ❤️</h1>
+    <p>
+    Espero que seu dia comece bem. Só queria te lembrar o quanto você é importante pra mim e o quanto eu amo ter você na minha vida.
+    </p>
+
+    <button onclick="mostrar()">Continuar ❤️</button>
+</div>
+
+
+<div id="texto">
+
+<p>
+Oi, meu amor! ❤️<br><br>
+
+Tô quebrando a cabeça pra fazer essa porra, mas vai valer a pena se eu conseguir deixar isso do jeitinho que imaginei.<br><br>
+
+Bom... quero começar te agradecendo por tudo que você é e por tudo que representa pra mim.<br><br>
+
+Você é o meu sol, meu amor. Você melhora os meus dias de uma forma tão simples e tão leve que, às vezes, nem percebe. Obrigado por cuidar de mim. Eu sei o quanto você se preocupa comigo, então quero agradecer por tudo o que faz por mim.<br><br>
+
+Você é radiante.<br><br>
+
+Sou completamente fissurado no seu olhar. Se eu pudesse, passaria todos os dias da minha vida te encarando.<br><br>
+
+Sou apaixonado pelo seu sorriso, principalmente quando consigo arrancar aqueles risos sinceros e, ao mesmo tempo, envergonhados que só você tem. Acho que nunca vou cansar de ver você sorrindo.<br><br>
+
+Eu amo você. Em todas as suas versões, em todos os seus momentos e de todas as formas possíveis.<br><br>
+
+Queria fazer muito mais por você, queria poder cuidar de você de todas as formas e passar minha vida INTEIRA ao seu lado. Eu sei que por enquanto pode ser meio difícil, mas eu prometo que vou sempre dar meu melhor por você, vou tentar te fazer feliz e cuidar de você do jeito que eu conseguir.
+</p>
+
+</div>
+
+</div>
+
+
+<script>
+function mostrar() {
+    document.getElementById("inicio").style.display = "none";
+    document.getElementById("texto").style.display = "block";
+}
+</script>
+
+</body>
+</html>
